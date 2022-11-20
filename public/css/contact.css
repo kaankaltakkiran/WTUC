@@ -1,0 +1,60 @@
+
+.main_form .form_control {
+    margin-top: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 66px;
+    background:#fff;
+    color: #d0d0cf;
+    font-size: 20px;
+    font-weight: normal;
+    border: #6b6b6b solid 3px;
+    margin-left: 250px;
+}
+
+.main_form .form_cont {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 60%;
+    background:#fff;
+    color: #d0d0cf !important;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 5px 20px 0px 20px;
+    height: 179px;
+    border: #6b6b6b solid 3px;
+    margin-left: 250px;
+    
+}
+.group_form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.group_form .send_btn {
+    font-size: 18px;
+    transition: ease-in all 0.5s;
+    background-color: #2a2929;
+    color: #fff;
+    max-width: 159px;
+    width: 100%;
+    font-weight: 600;
+    height: 69px;
+    line-height: 69px;
+    border-radius: 15px;
+    margin: 0 2px;
+    margin-bottom: 50px;
+}
+
+.group_form .send_btn:hover {
+    background-color: rgb(234, 0, 255);
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+#request *::placeholder {
+    color: #d0d0cf;
+    opacity: 1;
+}
+
